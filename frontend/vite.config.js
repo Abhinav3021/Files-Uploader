@@ -7,9 +7,5 @@ export default defineConfig({
   plugins: [react(),
         tailwindcss(),
   ],
-  server: {
-    proxy: {
-      '/api': 'https://files-uploader-zs0z.onrender.com'
-    }
-  }
+  
 })
