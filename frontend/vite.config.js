@@ -9,7 +9,7 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': 'http://localhost:5000'
+      '/api': 'https://files-uploader-zs0z.onrender.com'
     }
   }
 })
